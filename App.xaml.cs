@@ -1,8 +1,11 @@
-﻿using System.Diagnostics;
+﻿
+using System.Diagnostics;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace LabLifecycle;
 
-    public partial class App : Application
+public partial class App : Application
 
 {
 
@@ -40,4 +43,4 @@ namespace LabLifecycle;
 
         Debug.WriteLine($"[Lifecycle] {DateTime.Now:HH:mm:ss.fff} {name}");
 
-} 
+}
